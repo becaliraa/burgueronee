@@ -27,27 +27,29 @@
 
 #home-button {
     display: flex;
-    gap: 24px;
+    gap: 30px;
+}
+
+#home-button  .cardapio-btn {
+  padding: 10px 5px 5% 5px;
+    border-radius: 20px;
+    background-color: var(--color-primary-6);
 }
 
 #home-button a {
     text-decoration: none;
-    color: var(--color-neutral-1);;
-}
-
-#phone_button {
-    display: flex;
-    gap: 8px;
-    align-items: center;
-    background-color: #ffffff;
-    padding: 8px 14px;
+    color: var(--color-neutral-1);
+    text-align: center;
     font-weight: 500;
-    box-shadow: 0px 0px 12px 4px rgba(0, 0, 0, 0.1);
-    border-radius: 12px;
 }
 
-#phone_button button {
-    box-shadow: none;
+#home-button  .tel-btn  {
+    background-color: var(--color-primary-6);
+    transition: all 0.3s ease;
+    border-radius: 25px;
+    border: none;
+    cursor: pointer;
+    padding: 15px;
 }
 
 #banner {
@@ -68,6 +70,11 @@
         min-height: 100%;
         padding-top: 0px;
     }
+
+    #txt-home {
+     width: 100%;
+
+     }
 
     #banner,
     #banner img,
